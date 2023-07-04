@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    color: whitesmoke;
+    font-size: 0.7rem;
+    background: #070707;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.spline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    margin: 5em auto;
+    background-color: #b7b7b740;
+    border: solid 1px rgb(164, 164, 164);
+    border-radius: 50px;
+}
+
+.photo-text-container, .footer {
+    text-align: center;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 360px;
+    padding-top: 2em;
+}
+
+button {
+    border: none;
+    margin: 0.5em 0.5em;
+    padding: 0.5em 1em;
+    width: 145px;
+    
+}
+
+.linkedinBtn {
+    background-color: #005077;
+    color: whitesmoke;
+}
+
+.fa-solid {
+    margin-right: 0.5em;
+}
+
+.about, .interest {
+    padding: 0.5em 2em;
+    color: #b5b5b5;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.subtitle {
+    color: rgb(219, 219, 219);
+    margin: 0.5em 0;
+}
+
+.footer {
+    padding-bottom: 1em;
+}
